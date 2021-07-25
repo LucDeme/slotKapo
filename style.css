@@ -1,0 +1,118 @@
+html {
+	background-color: #0a0a0f; 
+}
+
+*{margin:0;padding: 0;}
+
+.slots{
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	transform: translate(-48%, -49%);
+	margin-right: -50%;
+	margin-bottom: -50%;
+}
+
+
+
+
+/*
+button{
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-right: -50%;
+	margin-bottom: -50%;
+
+
+}*/
+
+
+button {
+	position: absolute;
+	top: 120%;
+	left: 43%;
+
+	margin-right: -50%;
+	margin-bottom: -50%;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(#00f1ff, #3f87a6) ;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #3f87a6;
+}
+
+button:hover {background: linear-gradient(#3693f3, #3f87a6)}
+
+button:active {
+  background-color: #3f87a6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+
+
+
+.slot {
+	background: url("slotMachine8.png");
+	background-size: 200px 1600px;
+	position: relative;
+	width: 205px;
+	height: 400px;
+	background-position-y: 100px;
+	margin-right: 30px;
+	border-radius: 10px;
+	border: 3px solid #00f1ff; 
+	display: inline-block;
+}
+
+
+.slot:before { content: '';
+  position: absolute;
+  border-bottom: 2px #3f87a6 solid;
+  height: 100%;
+  width: 100%;
+  transform: translateY(-50%);
+   }
+
+
+/*.slot {
+	background: url("slotMachine8.png");
+	background-size: 200px 1600px;
+	position: relative;
+	width: 200px;
+	height: 400px;
+	background-position-y: 100px;
+	border: 20px solid; 
+	border-color: #0a0a0f;  
+	display: inline-block;
+}*/
+
+.bloc {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.bloc video{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	top: -10%;
+	left: 50%
+	z-index: -100;
+	transform: translate(-50%, -50%;
+}
