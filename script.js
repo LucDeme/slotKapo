@@ -6,7 +6,7 @@ var symSize = 200;
 
 var proba = [8, 6, 25, 25, 12, 1, 2, 0.2]; //cloche fraise pasteque cerise  raison 7 fer diamond
 
-var timeBetweenRoll = 60;
+var timeBetweenRoll = 10;
 
 var firstMinTurn = 3;
 var firstMaxTurn = 4;
